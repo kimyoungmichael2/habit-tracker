@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Habit Tracker</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+        <link rel="stylesheet" href="./styles.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
 
-    <div>
-        <canvas id="myChart"></canvas>
-    </div>
-      
-      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-      <script src="./scripts/graph.js"></script>
-       
+    <body>
+
+        <div>
+            <canvas id="myChart"></canvas>
+        </div>
+
+        <!-- Graph -->
+        <script src="./scripts/graph.js"></script>
+
+        <!-- Button -->
+        <div class="center top-margin">
+            <a class="button is-warning is-rounded is-medium">Add One Today</a>
+        </div>
 </body>
 </html>
